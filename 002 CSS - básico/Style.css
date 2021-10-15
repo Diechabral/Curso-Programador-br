@@ -1,10 +1,18 @@
-#Primeiroparagrafo{
-    color:red;
+#Primeiroparagrafo {
+    color: rgb(28, 155, 155)5);
+    background-image: url()
 }
-#titulo1{
-    color:yellow;
-}
-.texto_verde{color:green}
 
-/*para id de usa o # no inicio pra identificar e pra class, se inicia usando o . */
+#titulo1 {
+    color: rgb(194, 195, 197);
+}
+
+.texto_verde {
+    color: rgb(248, 0, 83)
+}
+
+
+/*para id de usa o # no ínicio pra identificar e pra class, se inicia usando o . */
+
+
 /*o id identifica um unico elemento, enquanto o class, pode ser copiado e colado em varios exemplares*/
