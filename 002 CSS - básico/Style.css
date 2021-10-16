@@ -1,7 +1,11 @@
 #Primeiroparagrafo {
-    color: rgb(28, 155, 155)5);
-    background-image: url()
-}
+    color: rgb(41, 23, 197);
+    background-image: url(../assets/Sorvete\ misto.jpeg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;}
+    /*efeito super legal de se usar esse fixer do attachment*/
 
 #titulo1 {
     color: rgb(194, 195, 197);
