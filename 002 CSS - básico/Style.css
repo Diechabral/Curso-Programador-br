@@ -15,8 +15,14 @@
     color: rgb(248, 0, 83)
 }
 
-
-/*para id de usa o # no ínicio pra identificar e pra class, se inicia usando o . */
+.paragraforelativo{
+    color: rgb(18, 122, 212);
+}
+.subdiv{
+    background: rgb(2, 7, 70);
+}
+/*para id de usa o # no ínici
+o pra identificar e pra class, se inicia usando o . */
 
 
 /*o id identifica um unico elemento, enquanto o class, pode ser copiado e colado em varios exemplares*/
