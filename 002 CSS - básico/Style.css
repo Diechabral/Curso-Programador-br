@@ -23,6 +23,7 @@ o pra identificar e pra class, se inicia usando o . */
 .subdiv{
     background: rgb(2, 7, 70);
 }
+/*
 #cm{
     background-color: rgb(255, 0, 85);
     width: 1cm; 
@@ -50,11 +51,18 @@ o pra identificar e pra class, se inicia usando o . */
     background-color: rgb(153, 153, 233);
     width: 1pc; 
     height: 1pc;
-    }
+    }*/
     /*unidades exatas, com grandeza concreta*/
+    
+    
+    
     .container{
-        font-size: 20px;
+        width: 200px; 
+        height: 300px;
+        background: red;
     }
      .inside{
-    font-size: 1rem;e
-}
+        width: 50%; 
+        height: 58%;  
+        background: blue;   
+    }
