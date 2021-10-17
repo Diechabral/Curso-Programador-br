@@ -14,15 +14,47 @@
 .texto_verde {
     color: rgb(248, 0, 83)
 }
-
+/*para id de usa o # no ínici
+o pra identificar e pra class, se inicia usando o . */
+/*o id identifica um unico elemento, enquanto o class, pode ser copiado e colado em varios exemplares*/
 .paragraforelativo{
     color: rgb(18, 122, 212);
 }
 .subdiv{
     background: rgb(2, 7, 70);
 }
-/*para id de usa o # no ínici
-o pra identificar e pra class, se inicia usando o . */
-
-
-/*o id identifica um unico elemento, enquanto o class, pode ser copiado e colado em varios exemplares*/
+#cm{
+    background-color: rgb(255, 0, 85);
+    width: 1cm; 
+    height: 1cm;
+}
+#mm{
+    background-color: rgb(0, 140, 255);
+    width: 1mm; 
+    height: 1mm;
+}
+#in{background-color: rgb(0, 255, 21);
+    width: 1in; 
+    height: 1in;
+}
+#px{
+    background-color: rgb(39, 39, 187);
+    width: 100px; 
+    height: 100px;
+}
+#pt{
+    background-color: rgb(255, 251, 0);
+    width: 1pt; 
+    height: 1pt;}
+#pc{
+    background-color: rgb(153, 153, 233);
+    width: 1pc; 
+    height: 1pc;
+    }
+    /*unidades exatas, com grandeza concreta*/
+    .container{
+        font-size: 20px;
+    }
+     .inside{
+    font-size: 1rem;e
+}
