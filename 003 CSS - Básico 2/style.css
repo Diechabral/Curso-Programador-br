@@ -1,12 +1,15 @@
 body{padding: 0;
-margin: 0;}
+     margin: 0;}
 
 .container{
     background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
 
 
 
 }
 .content{
+    background-color: rgb(190, 10, 10);
 
 }
