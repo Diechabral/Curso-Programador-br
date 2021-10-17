@@ -66,3 +66,28 @@ o pra identificar e pra class, se inicia usando o . */
         height: 58%;  
         background: blue;   
     }
+    #base{
+        height: 10px;
+        background-color: red;
+    }
+    #container{
+        background-color: blue;
+        color: white    ;
+        margin:10px;
+        padding: 12px;
+    }
+    #conteúdo{}
+
+    .border{
+        border-width: 5px;
+        border-style: solid;
+        border-color: green;
+        border-radius:  50%;
+
+
+    }
+    .square{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+    }
