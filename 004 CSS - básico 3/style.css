@@ -7,3 +7,21 @@ p{
 h1{
     font-family: Arial, Helvetica, sans-serif
 }
+.links{
+    text-decoration: none;  
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border-radius: 10px;
+    border: 2px solid tomato;
+}
+.links:visited{
+     color: red
+    }
+   .links:hover{
+       background: tomato;
+       color: white;
+   } 
+   
