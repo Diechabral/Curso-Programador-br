@@ -1,1 +1,29 @@
 body{background-color: rgb(0, 0, 0);}
+.nome{
+    color: rgb(0, 0, 0);
+}
+.instagram{
+    list-style-image: url(../assets/Insta.png);
+
+}
+.youtube{
+    list-style-image: url(../assets/Youtube.png);
+
+}
+.twitter{
+ list-style-image: url(../assets/Twitter.png);
+}
+.card{
+    width: 400px;
+    height: 200px;   
+    box-sizing: border-box;
+    padding: 1px 20px ; 
+    background: url(../assets/background.png) no-repeat;
+    background-size: cover;
+    margin:auto;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black    ;
+}
