@@ -23,6 +23,7 @@
         }
 
         .menu {
+
             list-style: none;
             margin: 0;
             padding: 0;
@@ -38,12 +39,25 @@
         }
 
         .logo {
-            float: left;
             display: inline-block;
             color: white;
         }
 
-        @media screen and (max-width: 400px) {}
+        @media screen and (max-width: 400px) {
+            .logo{
+                float: none;
+                text-align: center;
+            }
+            .menu{
+                float: none;
+                margin-top: 20px;
+                text-align: center;
+            }
+            li{
+                float: none;
+                background: red;
+            }
+        }
     </Style>
 </head>
 
@@ -56,6 +70,8 @@
             <li>Home</li>
             <li>Cursos</li>
             <li>Contato</li>
+            <li>Sobre</li>
+            <li>cultura</li>
         </ul>
     </div>
 </body>
