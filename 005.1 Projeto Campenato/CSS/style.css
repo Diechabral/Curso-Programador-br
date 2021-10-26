@@ -37,8 +37,7 @@ h2 {
 .margin-bottom {
   margin-bottom: 15px;
 }
-input,
-select {
+input, select {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
@@ -75,8 +74,9 @@ footer {
   margin-left: 40px;
   text-align: left;
 }
-.description p,
-.description h3 {
+.description p, .description h3 {
   margin-bottom: 20px;
 }
-.description h3 {font-size: 24px}
+.description h3 {
+  font-size: 24px;
+}
