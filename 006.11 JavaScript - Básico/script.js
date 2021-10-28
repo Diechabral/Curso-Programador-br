@@ -1,6 +1,12 @@
-// var alunos = new Array("Diego", "José", "Igor", "Mariana");
+// for (var i = 3; i < numero; i++) {
+//   console.log("Executando o for, pela " + i + " i ");
+//}
 
-// console.log(alunos[0]);
+var numero = Math.random() * 100;
 
-var alunos = ["igor", "josé", "marcos", "mariana"];
-console.log(alunos[3]);
+while (numero < 90) {
+  console.log(numero);
+  numero = Math.random() * 100;
+}
+console.log(numero);
+console.log("Acabou");
