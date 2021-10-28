@@ -1,20 +1,19 @@
-// var alunos = new Array("Diego", "José", "Igor", "Mariana");
-
-// var aluno1 = "igor;";
-// var aluno2 = "Diego;";
-// var aluno3 = "Marcos;";
-// var aluno4 = "Elena;";
-// var aluno5 = "Antoio;";
-// var aluno6 = "Juliana;";
-
-// console.log(alunos[0]);
-
-var alunos = ["igor", "josé", "marcos", "mariana", "joana", "william", "maria"];
-
-// for (var i = 0; i < alunos.length; i++) {
-//   console.log(alunos[i]);
-// } // implementação automatica sem mexer no codigo
-
-for (var aluno of alunos ){ 
-  console.log(aluno)
+function media(n1, n2) {
+  var nota1 = n1;
+  var nota2 = n2;
+  var media = (nota1 + nota2) / 2;
+  return media;
 }
+// com o uso da função eu posso executar varias vezes a mesma var. já com a normal eu teria que fazer manualmente.
+
+var resultado1 = media(6, 7);
+var resultado2 = media(10, 5);
+var resultado3 = media(8, 7);
+var resultado4 = media(5.5, 6);
+
+console.log(resultado1);
+console.log(resultado2);
+console.log(resultado1 + resultado2);
+
+// AULA DE FUNÇÃO PARTE 2 
+
