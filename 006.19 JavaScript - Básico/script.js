@@ -13,6 +13,7 @@ var turma = [
   criarAluno("igor", 9, 6),
   criarAluno("Diego", 10, 5),
   criarAluno("Marcela", 5, 7),
+  criarAluno("rodigo, 2,5, 10")
 ];
 
 var aluno = turma[2];
