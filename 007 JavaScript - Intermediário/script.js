@@ -1,1 +1,1 @@
-alert(" essa pagina accabou de ser iniciada ")
+alert("Essa página acabou de ser iniciada ")
