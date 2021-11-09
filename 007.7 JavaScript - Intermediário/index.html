@@ -6,27 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creating an event</title>
-    <style>
-
-    </style>
+    <style></style>
     <script>
-        function f() {
-            console.log("teste")
+        function f(e) {
+            console.log("teste");
+            console.log(e)
+            console.log(this)
         }
         function f1() {
-            console.log("teste f1")
-
+            console.log("teste f1");
+            console.log(e)
+            console.log(e.target);
         }
         window.onload = function () {
             let h1 = document.getElementsByTagName("h1")[0];
 
             h1.addEventListener("click", f1);
-        }
+        };
     </script>
 </head>
 
 <body>
-    <h1 onclick="f()">Tittle</h1>
+    <h1 onclick="f(this)">Tittle</h1>
 </body>
 
 </html>
