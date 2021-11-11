@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ptt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Persistência de Dados JSON</title>
+
+    <script>
+        // let a = {nome: "Diego", n1: 7.3}
+
+        // localStorage.setItem("aluno", JSON.stringify(a));
+
+        // let n = localStorage.getItem("numero");
+        // console.log(n);
+
+        // let n2 = 5.7;
+        // console.log(n2);
+        let a = localStorage.getItem("alino");
+        console.log(JSON.parse(a))
+
+    </script>
+</head>
+
+<body>
+    <h1 id="nome"></h1>
+    <input type="text" oninput="atualizar(this)">
+
+</body>
+
+</html>
