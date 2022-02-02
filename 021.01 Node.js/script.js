@@ -2,8 +2,8 @@ let args = process.argv.slice(2);
 
 console.log(args);
 
-let a = args[0];
-let b = args[1];
+let a = Number(args[0]);
+let b = Number(args[1]);
 let c = soma(a, b);
 
 function soma(x, y) {
@@ -11,3 +11,5 @@ function soma(x, y) {
 }
 
 console.log(c);
+
+/* to esses scripts estão snedo executados via promt de comando pelo node */
