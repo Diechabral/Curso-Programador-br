@@ -1,16 +1,18 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
-http.createServer((request, response) => {
 
-    let path = url.parse(request.url).pathname;
+function handleFile(req, res) {
+
     let fileName = "." + path;
 
-    if (path == "" || path == "/") {
-        path == "/index.html"
-    }
     fs.readFile(fileName, (err, data) => {
         if (err) {
+
+            if (path == "/teste") {
+                responde.end("Teste")
+                return;
+            }
             response.writeHead(404, { "Content-Type": "text/html; charset=utf-8" });
             response.end("<h1>Página não encontrada</h1>")
         } else {
@@ -19,6 +21,11 @@ http.createServer((request, response) => {
             response.end();
         }
     })
+}
+http.createServer((request, response) => {
+
+    let path = url.parse(request.url).pathname;
+
 })
     .listen(3000, (err) => {
         if (err) {
