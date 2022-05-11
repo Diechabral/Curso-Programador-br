@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-image: url("paper.gif");
 
 }
 h1{
@@ -10,7 +11,7 @@ h1{
     width: 100px;
     height: 100px;
     background-color: beige;
-    border: 1px solid gray;
+    border-radius:100px;
     display: inline-block;
 }
 
